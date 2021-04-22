@@ -74,3 +74,9 @@ I then test the neural network by feeding test data, the results is at aboout 74
 ![image](https://user-images.githubusercontent.com/42806161/115666283-fe374400-a309-11eb-9da8-b8c950c326f6.png)
 
 So far, the basic 2 layer neural network is successfully built and implemented.
+
+In this project, there are several things we can twist and play around to adjust for different task and performance. Hidden layers and nodes to be chosen are responsible for the runtime and accuracy of our NN in general. On the other hand, if we start working on more deeper, we should add in more optimization process such as ADAM, momentum...from the data side, normaliztion is always helpful for preparing the data. With deeper NN, cross-validation is usually used to prevent overfitting which it can be apllied in our case as well, but since I'm pretty confident about the result, this process is skipped.
+
+Activation function are chosen based on the task and computing price which is why ReLu is wildly used as default.
+
+Note that the accuracy of the test data is < 80%, which is oftenly considered acceptable because going higher would easily introduce overfitting.
