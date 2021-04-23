@@ -4,7 +4,7 @@ Says One Neuron To Another
 ## data to present
 1.Statlog(Heart) Data Set
 
-2.
+2.Breast Cancer Wisconsin data set
 
 ## method
 To demonstrate the neural network process, three main layers are to be conducted.
